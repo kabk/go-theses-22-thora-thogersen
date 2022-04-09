@@ -1,0 +1,362 @@
+@font-face {
+	font-family: 'Agrandir';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/Agrandir-Variable.ttf') format('truetype'), url('./fonts/Agrandir-Variable.ttf') format('ttf');
+}
+
+@font-face {
+	font-family: 'NeueHaasGroteskDisplay';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'), url('./fonts/NHaasGroteskDSPro-55Rg.ttf') format('ttf');
+}
+
+@font-face {
+font-family: 'NeueHaasGroteskText';
+font-style: normal;
+font-weight: 400;
+src: url('./fonts/NHaasGroteskTXPro-55Rg.ttf') format('truetype'), url('./fonts/NHaasGroteskTXPro-55Rg.ttf') format('ttf');
+}
+
+@font-face {
+font-family: 'NeueHaasGroteskText';
+font-style: italic;
+font-weight: 400;
+src: url('./fonts/NHaasGroteskTXPro-56It.ttf') format('truetype'), url('./fonts/NHaasGroteskTXPro-56It.ttf') format('ttf');
+}
+
+@font-face {
+font-family: 'NeueHaasGroteskMd';
+font-style: normal;
+font-weight: 500;
+src: url('./fonts/NHaasGroteskTXPro-65Md.ttf') format('truetype'), url('./fonts/NHaasGroteskTXPro-65Md.ttf') format('ttf');
+}
+
+@font-face {
+font-family: 'NeueHaasGroteskText';
+font-style: italic;
+font-weight: 500;
+src: url('./fonts/NHaasGroteskTXPro-66MdIt.ttf') format('truetype'), url('./fonts/NHaasGroteskTXPro-66MdIt.ttf') format('ttf');
+}
+
+@font-face {
+font-family: 'NeueHaasGroteskText';
+font-style: normal;
+font-weight: 700;
+src: url('./fonts/NHaasGroteskTXPro-75Bd.ttf') format('truetype'), url('./fonts/NHaasGroteskTXPro-75Bd.ttf') format('ttf');
+}
+
+@font-face {
+font-family: 'NeueHaasGroteskText';
+font-style: italic;
+font-weight: 700;
+src: url('./fonts/NHaasGroteskTXPro-76BdIt.ttf') format('truetype'), url('./fonts/NHaasGroteskTXPro-76BdIt.ttf') format('ttf');
+}
+  
+
+
+* {
+	font-family: 'Agrandir' ! important;
+}
+
+
+
+
+h2 {
+	position: relative;
+	font-size: 36px ! important;
+	margin: 20px 0 20px 0;
+}
+
+h2 > span {
+	position: absolute;
+	top: -10px;
+	right: 0;
+	font-size: 70px ! important;
+}
+
+
+
+
+.text-void {
+	font-size: 16px;
+	font-family: 'NeueHaasGroteskText' ! important;
+}
+
+.text-bold {
+	font-size: 16px;
+	font-family: 'NeueHaasGroteskMd' ! important;
+}
+
+.undertitle {
+	font-size: 19px;
+	font-style: italic;
+	font-family: 'NeueHaasGroteskText' ! important;
+}
+
+
+
+
+.image-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.image-grid > .img {
+	background: no-repeat center 16px;
+	background-size: contain;
+	position: relative;
+}
+
+
+
+dl {
+	margin-left: 4em;
+	font-size: 16px;
+	font-family: 'NeueHaasGroteskText' ! important;
+}
+.indentone{
+	/*padding-left: 5px;*/
+	margin-left: 3em;
+	font-size: 16px;
+	font-family: 'NeueHaasGroteskText' ! important;
+}
+
+.indenttwo{
+	margin-left: 7em;
+	font-size: 16px;
+	font-family: 'NeueHaasGroteskText' ! important;
+	/*text-align: center;*/
+}
+
+.indentcenter{
+	text-align: center;
+}
+li {
+	font-size: 16px;
+	font-family: 'NeueHaasGroteskText' ! important;
+	/*line-height: 1.8;*/
+	margin-top: 0.5em;
+}
+
+
+
+
+
+.littlefoot-footnote__wrapper, .littlefoot-footnote__content > * {
+	background: black;
+	color: white ! important;
+}
+
+#title-abstract, #title-abstract *, #intro-text, #intro-text > * > * > * > * {
+	color: black;
+	background-color: #ffbee4;
+	border: none;
+}
+
+#title-forword, #title-forword *, #chapter1-text, #chapter1-text > * > * > * > * {
+	color: black;
+	background-color: white;
+	border: none;
+}
+
+#title-bad, #title-bad *, #chapter2-text, #chapter2-text > * > * > * > * {
+	color: black;
+	background-color: #ffea57;
+	border: none;
+}
+
+#title-anymore, #title-anymore *, #chapter3-text, #chapter3-text > * > * > * > * {
+	color: #ff6437;
+	background-color: #4e1700;
+	border: none;
+}
+
+#title-inter, #title-inter *, #chapter4-text, #chapter4-text > * > * > * > * {
+	color: #af6338;
+	background-color: #affa75;
+	border: none;
+}
+
+#title-inter span {
+	color: #af6338;
+}
+
+#title-after, #title-after *, #conclusion-text, #conclusion-text > * > * > * > * {
+	color: #009add ! important;
+	background-color: #000;
+	border: none;
+}
+
+#title-bibli, #title-bibli *, #bibli-text, #bibli-text > * > * > * > * {
+	color: white ! important;
+	background-color: #af6338;
+	border: none;
+
+	font-size: 20px;
+}
+
+
+
+
+
+.eyes {
+	background: none ! important;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	text-align: center;
+}
+.eye {
+	background: none;
+	width: 80px;
+	height: 140px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ball {
+	background: none;
+	width: 30px;
+	height: 30px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border: 15px solid #000;
+}
+
+.eyes1 {
+	background: none ! important;
+	position: absolute;
+	top: 3em;
+	left: 1.3em;
+	width: 100%;
+	text-align: center;
+}
+.eye1 {
+	background: none;
+	width: 50px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.eyes2 {
+	background: none ! important;
+	position: absolute;
+	top: 0px;
+	left: 3.8em;
+	width: 100%;
+	text-align: center;
+}
+.eye2 {
+	background: none;
+	width: 50px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.eyes3 {
+	background: none ! important;
+	position: absolute;
+	top: -30px;
+	width: 100%;
+	text-align: center;
+}
+.eye3 {
+	background: none;
+	width: 50px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.eyes4 {
+	background: none ! important;
+	position: absolute;
+	top: -4.4em;
+	left: 4em;
+	width: 100%;
+	text-align: center;
+}
+.eye4 {
+	background: none;
+	width: 50px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.eyes5 {
+	background: none ! important;
+	position: absolute;
+	top: 0px;
+	left: -1.6em;
+	width: 100%;
+	text-align: center;
+}
+.eye5 {
+	background: none;
+	width: 50px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.eyes6 {
+	background: none ! important;
+	position: absolute;
+	top: 3em;
+	width: 100%;
+	text-align: center;
+}
+.eye6 {
+	background: none;
+	width: 50px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 100px 10px 0 10px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+
